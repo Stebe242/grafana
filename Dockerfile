@@ -1,7 +1,7 @@
 # vim:set ft=dockerfile:
 ARG BASEIMAGE=ubuntu:rolling
 FROM $BASEIMAGE
-MAINTAINER Sebastian Braun <sebastian.braun@fh-aachen.de>
+LABEL maintainer="Stephan Zander <stephan.zander@lucas-nuelle.de>"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LC_ALL C
