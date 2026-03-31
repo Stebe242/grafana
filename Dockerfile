@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-ARG BASEIMAGE=ubuntu:rolling
+ARG BASEIMAGE=ubuntu:24.04
 FROM $BASEIMAGE
 LABEL maintainer="Stephan Zander <stephan.zander@lucas-nuelle.de>"
 
